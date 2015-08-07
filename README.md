@@ -1,6 +1,8 @@
 # kaggle's Otto Group Product Classification Challenge
 
-This is my code for [kaggle's Product Classification Challenge][1]. I had a write-up about the solution in my blog. Check [My Solution to Kaggle's Otto Group Challenge][2].
+## Introduction
+
+This is my code for [kaggle's Product Classification Challenge][1]. I had a [write-up][2] about the solution in my blog. The final model uses an ensemble of two levels. 30 runs can get 0.4192 on private LB (top 5%). Training data for level 1 and level 2 was roughly split into 1:1 and one can fine tune this to get a better result.
 
 This competition attracted me because:
 
@@ -10,7 +12,16 @@ This competition attracted me because:
 
 ## Dependencies
 
-
+* CUDA Toolkit 7.0
+* Python 2.7.6
+    * Lasagne 0.1.dev
+    * nolearn 0.5
+    * numpy 1.8.2
+    * pandas 0.13.1
+    * scikit-learn 0.16.1
+    * scipy 0.13.3
+    * Theano 0.7.0
+    * xgboost 0.4
 
 ## Run
 
