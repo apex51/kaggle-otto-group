@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is my code for [kaggle's Product Classification Challenge][1]. I had a [write-up][2] about the solution in my blog. The final model uses an ensemble of two levels by stacking. 30 runs can get 0.4192 on private LB (top 5%). Training data for level 1 and level 2 was roughly split into 1:1 and one can fine tune this to get a better result.
+This is my code for [kaggle's Product Classification Challenge][1]. I had a [write-up][2] about the solution in my blog. The final model uses an ensemble of two levels by stacking. 30 runs can get 0.4192 on private LB (top 5%). Training data for level 1 and level 2 was roughly split into 1:1 and one can fine tune this to get a better result. 
 
 This competition attracted me because:
 
